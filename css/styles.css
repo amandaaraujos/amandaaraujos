@@ -186,3 +186,92 @@
     .nav ul { gap: 12px; justify-content: center; }
     .header { text-align: center; }
   }
+  /* =========================
+   Slider de Cases
+========================= */
+.case .slider {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--bg-main);
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo do slide verticalmente */
+  }
+  
+  .slide {
+    /* Em vez de display: none, usamos opacidade para permitir animação */
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: clamp(2rem, 8vw, 6rem); /* Padding fluido */
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+    overflow-y: auto; /* Permite scroll interno se o texto do case for longo */
+  }
+  
+  .slide.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative; /* Volta ao fluxo para ocupar espaço se necessário */
+  }
+  
+  /* =========================
+     Controles Flutuantes
+  ========================= */
+  .controls {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100; /* Garante que fique acima de tudo */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Substitui o margin-left fixo por gap */
+  }
+  
+  .controls button, 
+  .controls .back {
+    background-color: var(--purple-main);
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls .back {
+    background-color: var(--purple-dark);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Efeito de Hover nos Controles */
+  .controls .back:hover,
+  .controls button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(74, 20, 140, 0.3);
+    opacity: 1; /* Garante visibilidade no hover */
+  }
+  
+  /* Ajuste para telas pequenas */
+  @media (max-width: 600px) {
+    .controls {
+      right: 50%;
+      transform: translateX(50%); /* Centraliza os botões no mobile */
+      bottom: 1rem;
+      width: 90%;
+      justify-content: center;
+    }
+    
+    .slide {
+      padding: 2rem 1rem;
+    }
+  }
