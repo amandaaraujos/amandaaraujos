@@ -1,562 +1,467 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nome Sobrenome — Design Conversacional, UX Writing & IA Aplicada</title>
-<meta name="description" content="Portfólio de especialista em Design Conversacional, UX Writing, Curadoria de Conteúdo e IA aplicada a chatbots, URAs de voz e Centrais de Ajuda.">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="stylesheet" href="css/style.css">
-<!-- Favicon: substitua pelo arquivo real em /assets/img/favicon.png -->
-<link rel="icon" href="assets/img/favicon.png" type="image/png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Amanda Araújo | Design Conversacional
+    </title>
+
+    <meta name="description"
+          content="Portfólio profissional de Design Conversacional, UX Writing, Chatbots, Voicebots, IA Generativa e Experiência do Usuário.">
+
+    <link rel="stylesheet"
+          href="css/styles.css">
+
 </head>
+
 <body>
 
-<!-- Link de atalho para acessibilidade via teclado -->
-<a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+<header class="header">
 
-<!-- ==================== CABEÇALHO / NAVEGAÇÃO ==================== -->
-<header class="site-header" id="topo">
-  <div class="wrap header-inner">
-    <a class="brand" href="#topo" aria-label="Voltar ao início">
-      <span class="brand-mark" aria-hidden="true">＊</span>
-      <span class="brand-name">Nome Sobrenome</span>
-    </a>
+    <div class="container">
 
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="visually-hidden">Abrir menu</span>
-    </button>
+        <div>
 
-    <nav class="site-nav" id="navMenu" aria-label="Navegação principal">
-      <ul>
-        <li><a href="#sobre" data-nav>Sobre</a></li>
-        <li><a href="#metodo" data-nav>Método</a></li>
-        <li><a href="#areas" data-nav>Áreas</a></li>
-        <li><a href="#experiencia" data-nav>Experiência</a></li>
-        <li><a href="#cases" data-nav>Cases</a></li>
-        <li><a href="#demos" data-nav>Demos</a></li>
-        <li><a href="#stack" data-nav>Stack</a></li>
-        <li><a href="#contato" data-nav class="nav-cta">Contato</a></li>
-      </ul>
-    </nav>
-  </div>
+            <h1>Amanda Araújo</h1>
+
+            <p>
+                Design Conversacional • UX Writing • IA Conversacional
+            </p>
+
+        </div>
+
+        <nav class="nav">
+
+            <a href="#sobre">Sobre</a>
+            <a href="#cases">Cases</a>
+            <a href="#demos">Demos</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+
+        </nav>
+
+    </div>
+
 </header>
 
-<main id="conteudo-principal">
+<section class="hero">
 
-  <!-- ==================== 1. HERO ==================== -->
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Design Conversacional · UX Writing · IA aplicada</p>
-        <h1 id="hero-title">Experiências conversacionais orientadas a dados e resultados</h1>
-        <p class="hero-subtitle">Especialista em chatbots, URAs de voz, UX Writing, curadoria de conteúdo e IA aplicada à experiência do cliente.</p>
+    <div class="container">
+
+        <h2>
+            Transformando jornadas complexas em conversas que geram resultado.
+        </h2>
+
+        <p>
+
+            Especialista em Design Conversacional,
+            UX Writing, Curadoria de Conteúdo,
+            Chatbots, URAs de Voz e IA aplicada à experiência do cliente.
+
+        </p>
+
         <div class="hero-actions">
-          <a href="#cases" class="btn btn-primary">Ver cases</a>
-          <a href="#demos" class="btn btn-secondary">Testar demos</a>
-        </div>
-        <p class="hero-context">Atuação em ambientes financeiros de alta escala — <strong>Getnet</strong> e <strong>RecargaPay</strong>.</p>
-      </div>
 
-      <div class="hero-visual" aria-hidden="true">
-        <div class="transcript-card">
-          <div class="transcript-header">
-            <span class="transcript-dot"></span>
-            <span class="transcript-dot"></span>
-            <span class="transcript-dot"></span>
-            <span class="transcript-title">Central de Ajuda — fluxo revisado</span>
-          </div>
-          <div class="transcript-body" id="transcriptBody">
-            <!-- Preenchido via JS (js/main.js) para efeito de digitação -->
-          </div>
-          <p class="transcript-caption">Exemplo de reescrita de UX Writing aplicada a um fluxo real de atendimento.</p>
+            <a href="#cases"
+               class="btn-primary">
+
+                Ver Cases
+
+            </a>
+
+            <a href="#demos"
+               class="btn-secondary">
+
+                Testar Demos
+
+            </a>
+
         </div>
-      </div>
+
     </div>
-  </section>
 
-  <!-- ==================== 2. SOBRE ==================== -->
-  <section class="section" id="sobre" aria-labelledby="sobre-title">
-    <div class="wrap sobre-grid">
-      <div class="sobre-copy">
-        <p class="eyebrow">Sobre</p>
-        <h2 id="sobre-title">Conteúdo, tecnologia e jornada, na mesma conversa</h2>
-        <p>Especialista em curadoria de conteúdo e experiências conversacionais, com atuação em chatbots inteligentes, URAs de voz e Centrais de Ajuda em ambientes financeiros. Trabalho integrando conteúdo, tecnologia e análise de jornada para gerar eficiência operacional, retenção e melhoria contínua da experiência do usuário.</p>
-        <p>Experiência prática com IA Generativa, NLP, integrações via API e metodologias ágeis, atuando como ponte entre negócio, usuário e tecnologia.</p>
-      </div>
+</section>
 
-      <aside class="sobre-facts" aria-label="Resumo profissional">
-        <ul class="fact-list">
-          <li><span class="fact-label">Setor</span><span class="fact-value">Fintech &amp; meios de pagamento</span></li>
-          <li><span class="fact-label">Frentes</span><span class="fact-value">Chatbot · URA · Central de Ajuda</span></li>
-          <li><span class="fact-label">Tecnologia</span><span class="fact-value">IA Generativa · NLP · APIs</span></li>
-          <li><span class="fact-label">Método</span><span class="fact-value">Ágil, orientado a dados</span></li>
+<section class="section">
+
+    <div class="container">
+
+        <div class="metrics-grid">
+
+            <div class="metric-card">
+
+                <div class="metric-number">
+                    +15pp
+                </div>
+
+                <div class="metric-label">
+                    Retenção da Central de Ajuda
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-number">
+                    24%
+                </div>
+
+                <div class="metric-label">
+                    Representatividade do Chatbot
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-number">
+                    97%
+                </div>
+
+                <div class="metric-label">
+                    Retenção em Fluxo de Fraude
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-number">
+                    45%
+                </div>
+
+                <div class="metric-label">
+                    Satisfação do Usuário
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="sobre"
+         class="section">
+
+    <div class="container">
+
+        <h3>
+            Sobre
+        </h3>
+
+        <p>
+
+            Especialista em curadoria de conteúdo
+            e experiências conversacionais,
+            com atuação em chatbots inteligentes,
+            voicebots, URAs e Centrais de Ajuda.
+
+        </p>
+
+        <p>
+
+            Experiência prática com IA Generativa,
+            NLP, integrações via API e análise de
+            métricas para evolução contínua da experiência.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="section section-alt">
+
+    <div class="container">
+
+        <h3>
+            Como eu trabalho
+        </h3>
+
+        <div class="work-method">
+
+            <div class="work-step">
+                <div class="work-circle">1</div>
+                <h4>Diagnóstico</h4>
+            </div>
+
+            <div class="work-step">
+                <div class="work-circle">2</div>
+                <h4>Jornada</h4>
+            </div>
+
+            <div class="work-step">
+                <div class="work-circle">3</div>
+                <h4>Arquitetura</h4>
+            </div>
+
+            <div class="work-step">
+                <div class="work-circle">4</div>
+                <h4>UX Writing</h4>
+            </div>
+
+            <div class="work-step">
+                <div class="work-circle">5</div>
+                <h4>Medição</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="container">
+
+        <h3>
+            Áreas de atuação
+        </h3>
+
+        <div class="case-list">
+
+            <div class="case-card">
+                <h4>Design Conversacional</h4>
+            </div>
+
+            <div class="case-card">
+                <h4>UX Writing</h4>
+            </div>
+
+            <div class="case-card">
+                <h4>Voicebots e URAs</h4>
+            </div>
+
+            <div class="case-card">
+                <h4>IA Generativa</h4>
+            </div>
+
+            <div class="case-card">
+                <h4>NLP</h4>
+            </div>
+
+            <div class="case-card">
+                <h4>Curadoria de Conteúdo</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="cases"
+         class="section section-alt">
+
+    <div class="container">
+
+        <h3>
+            Cases Selecionados
+        </h3>
+
+        <div class="case-list">
+
+            <article class="case-card">
+
+                <h4>
+                    RecargaPay
+                </h4>
+
+                <p>
+                    IA Conversacional e automação
+                    de jornadas críticas.
+                </p>
+
+                <a href="#">
+                    Ver Case →
+                </a>
+
+            </article>
+
+            <article class="case-card">
+
+                <h4>
+                    Getnet
+                </h4>
+
+                <p>
+                    Evolução de experiências
+                    conversacionais.
+                </p>
+
+                <a href="#">
+                    Ver Case →
+                </a>
+
+            </article>
+
+            <article class="case-card">
+
+                <h4>
+                    Voicebot Demo
+                </h4>
+
+                <p>
+                    Projeto demonstrativo de URA.
+                </p>
+
+            </article>
+
+            <article class="case-card">
+
+                <h4>
+                    Chatbot NLP Demo
+                </h4>
+
+                <p>
+                    Projeto demonstrativo com IA.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="demos"
+         class="section">
+
+    <div class="container">
+
+        <h3>
+            Demos Interativas
+        </h3>
+
+        <div class="demo">
+
+            <h4>
+                Chatbot Interativo
+            </h4>
+
+            <p>
+                Teste um fluxo conversacional funcional.
+            </p>
+
+            <div class="demo-embed">
+                Área para embed do Botpress
+            </div>
+
+        </div>
+
+        <div class="demo">
+
+            <h4>
+                Voicebot / URA
+            </h4>
+
+            <p>
+                Simulação navegável de voz.
+            </p>
+
+            <div class="demo-embed">
+                Área para embed do Voiceflow
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="experiencia"
+         class="section section-alt">
+
+    <div class="container">
+
+        <h3>
+            Experiência Profissional
+        </h3>
+
+        <div class="experience-item">
+
+            <h4>
+                Getnet
+            </h4>
+
+            <span>
+                Curadora de Conteúdo e UX Writer
+            </span>
+
+        </div>
+
+        <div class="experience-item">
+
+            <h4>
+                RecargaPay
+            </h4>
+
+            <span>
+                Especialista em Curadoria e Experiência Conversacional
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="container">
+
+        <h3>
+            Competências
+        </h3>
+
+        <ul class="skills-list">
+
+            <li>Botpress</li>
+            <li>Botmaker</li>
+            <li>Zendesk Guide</li>
+            <li>Zendesk Support</li>
+            <li>IA Generativa</li>
+            <li>NLP</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>JSON</li>
+            <li>APIs</li>
+            <li>Scrum</li>
+            <li>Six Sigma Green Belt</li>
+
         </ul>
-      </aside>
+
     </div>
 
-    <!-- ============ MÉTRICAS DE DESTAQUE ============ -->
-    <div class="wrap">
-      <div class="metrics-grid" id="metricsGrid">
-        <article class="metric-card">
-          <p class="metric-number" data-count="15" data-prefix="+" data-suffix="pp">0pp</p>
-          <p class="metric-label">Retenção na Central de Ajuda</p>
-          <p class="metric-context">Redução de escalonamento para atendimento humano.</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-number" data-count="24" data-suffix="%">0%</p>
-          <p class="metric-label">Representatividade do chatbot</p>
-          <p class="metric-context">Participação no volume total de atendimento.</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-number" data-count="57" data-suffix="%">0%</p>
-          <p class="metric-label">Retenção em fluxos automatizados</p>
-          <p class="metric-context">Resolução sem intervenção humana.</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-number" data-count="97" data-suffix="%">0%</p>
-          <p class="metric-label">Retenção em automação de fraude</p>
-          <p class="metric-context">Fluxo crítico de segurança do usuário.</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-number" data-count="45" data-suffix="%">0%</p>
-          <p class="metric-label">Satisfação em jornada automatizada</p>
-          <p class="metric-context">Percepção do usuário ao final do fluxo.</p>
-        </article>
-      </div>
+</section>
+
+<footer id="contato"
+        class="footer">
+
+    <div class="container">
+
+        <h3>
+            Vamos conversar?
+        </h3>
+
+        <p>
+            LinkedIn • GitHub • E-mail
+        </p>
+
     </div>
-  </section>
 
-  <!-- ==================== 4. COMO EU TRABALHO ==================== -->
-  <section class="section section-tint" id="metodo" aria-labelledby="metodo-title">
-    <div class="wrap">
-      <p class="eyebrow">Método</p>
-      <h2 id="metodo-title">Como eu trabalho</h2>
-      <p class="section-lede">Um processo repetível, do diagnóstico à evolução contínua — para que cada fluxo conversacional seja construído sobre evidência, não suposição.</p>
-
-      <ol class="process-list">
-        <li class="process-step">
-          <span class="process-index">01</span>
-          <div class="process-body">
-            <h3>Diagnóstico baseado em dados</h3>
-            <p>Leitura de métricas de atendimento, abandono e reclamação para identificar onde a jornada falha antes de propor qualquer solução.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">02</span>
-          <div class="process-body">
-            <h3>Mapeamento de jornada</h3>
-            <p>Reconstrução do caminho real do usuário — canais, pontos de contato e decisões — para entender o contexto antes do texto.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">03</span>
-          <div class="process-body">
-            <h3>Arquitetura conversacional</h3>
-            <p>Estruturação de intenções, fluxos e regras de negócio em uma lógica que o usuário reconhece e o sistema executa.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">04</span>
-          <div class="process-body">
-            <h3>UX Writing</h3>
-            <p>Escrita objetiva, na voz da marca, que reduz reformulação e antecipa a próxima dúvida do usuário.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">05</span>
-          <div class="process-body">
-            <h3>Implementação</h3>
-            <p>Configuração do fluxo na plataforma — conteúdo, integrações e regras — em conjunto com tecnologia.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">06</span>
-          <div class="process-body">
-            <h3>Testes</h3>
-            <p>Validação de cenários reais e de borda antes do lançamento, incluindo casos de falha do NLP.</p>
-          </div>
-        </li>
-        <li class="process-step">
-          <span class="process-index">07</span>
-          <div class="process-body">
-            <h3>Evolução contínua</h3>
-            <p>Acompanhamento de métricas pós-lançamento e ajuste do fluxo com base em comportamento real do usuário.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- ==================== 5. ÁREAS DE ATUAÇÃO ==================== -->
-  <section class="section" id="areas" aria-labelledby="areas-title">
-    <div class="wrap">
-      <p class="eyebrow">Áreas de atuação</p>
-      <h2 id="areas-title">Do texto à arquitetura do fluxo</h2>
-
-      <div class="areas-grid">
-        <article class="area-card">
-          <h3>Design Conversacional</h3>
-          <p>Estruturação de fluxos que conduzem o usuário do primeiro contato à resolução, com o mínimo de fricção.</p>
-        </article>
-        <article class="area-card">
-          <h3>UX Writing</h3>
-          <p>Textos claros e objetivos que reduzem dúvida, ambiguidade e reformulação em cada etapa da conversa.</p>
-        </article>
-        <article class="area-card">
-          <h3>Chatbots com IA Generativa</h3>
-          <p>Aplicação de IA generativa em respostas contextuais, mantendo consistência de marca e controle de risco.</p>
-        </article>
-        <article class="area-card">
-          <h3>URA e Voicebot</h3>
-          <p>Roteiros de voz que equilibram naturalidade da fala com eficiência de navegação.</p>
-        </article>
-        <article class="area-card">
-          <h3>Curadoria de Conteúdo</h3>
-          <p>Organização e manutenção de base de conhecimento como fonte única de verdade para todos os canais.</p>
-        </article>
-        <article class="area-card">
-          <h3>Arquitetura de Informação</h3>
-          <p>Hierarquia de conteúdo e navegação pensada para localização rápida da informação certa.</p>
-        </article>
-        <article class="area-card">
-          <h3>NLP — intenções e entidades</h3>
-          <p>Modelagem e curadoria de intenções, entidades e frases de treino para melhorar o entendimento do usuário.</p>
-        </article>
-        <article class="area-card">
-          <h3>Métricas e otimização</h3>
-          <p>Leitura de retenção, TMN e sucesso de NLP para priorizar melhorias com maior impacto no negócio.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 6. EXPERIÊNCIA PROFISSIONAL ==================== -->
-  <section class="section section-tint" id="experiencia" aria-labelledby="experiencia-title">
-    <div class="wrap">
-      <p class="eyebrow">Experiência</p>
-      <h2 id="experiencia-title">Experiência profissional</h2>
-
-      <div class="exp-list">
-
-        <article class="exp-entry">
-          <header class="exp-header">
-            <div>
-              <h3>Getnet</h3>
-              <p class="exp-role">Curadora de Conteúdo e UX Writer</p>
-            </div>
-          </header>
-          <ul class="exp-activities">
-            <li>Curadoria estratégica de conteúdo para chatbots e URAs.</li>
-            <li>Revisão de UX Writing em todos os pontos de contato conversacionais.</li>
-            <li>Evolução contínua de jornadas de voz.</li>
-            <li>Organização de documentação técnica de fluxos e conteúdo.</li>
-            <li>Análise de retenção, abandono, sucesso de NLP e TMN.</li>
-          </ul>
-        </article>
-
-        <article class="exp-entry">
-          <header class="exp-header">
-            <div>
-              <h3>RecargaPay</h3>
-              <p class="exp-role">Especialista em Curadoria e Experiência Conversacional</p>
-            </div>
-          </header>
-          <ul class="exp-activities">
-            <li>Gestão completa da Central de Ajuda.</li>
-            <li>Construção de chatbots com IA Generativa.</li>
-            <li>Modelagem de NLP — intenções e entidades.</li>
-            <li>Automação de processos de atendimento.</li>
-            <li>Integração entre canais de atendimento.</li>
-            <li>Coordenação de rollout de novas tecnologias.</li>
-          </ul>
-          <div class="exp-results" aria-label="Resultados alcançados">
-            <span class="result-chip">+15pp retenção</span>
-            <span class="result-chip">24% representatividade do chatbot</span>
-            <span class="result-chip">97% retenção em fraude</span>
-            <span class="result-chip">45% satisfação</span>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 7. CASES ==================== -->
-  <section class="section" id="cases" aria-labelledby="cases-title">
-    <div class="wrap">
-      <p class="eyebrow">Cases</p>
-      <h2 id="cases-title">Cases</h2>
-      <p class="section-lede">Cada case documenta o raciocínio completo — do problema de negócio à decisão de escrita. Abra um case para ver a jornada inteira.</p>
-
-      <div class="cases-grid">
-
-        <!-- CASE 1 -->
-        <details class="case-card">
-          <summary>
-            <span class="case-tag">Central de Ajuda</span>
-            <h3>Getnet — Evolução de Experiências Conversacionais</h3>
-            <p class="case-preview">Reestruturação de conteúdo e fluxos de voz para reduzir abandono e melhorar o entendimento de NLP.</p>
-            <span class="case-toggle" aria-hidden="true">Ver case completo</span>
-          </summary>
-          <div class="case-body">
-            <dl class="case-fields">
-              <div><dt>Contexto</dt><dd>Ambiente financeiro com alto volume de atendimento distribuído entre chatbot, URA e Central de Ajuda.</dd></div>
-              <div><dt>Problema</dt><dd>Conteúdo desatualizado e inconsistente entre canais gerava reformulação de pergunta e escalonamento desnecessário.</dd></div>
-              <div><dt>Diagnóstico</dt><dd>Cruzamento de métricas de retenção, abandono, sucesso de NLP e TMN para localizar os pontos de maior fricção da jornada.</dd></div>
-              <div><dt>Solução</dt><dd>Curadoria estratégica de conteúdo e revisão sistemática de UX Writing em todos os pontos de contato conversacionais.</dd></div>
-              <div><dt>Arquitetura conversacional</dt><dd>Reorganização de fluxos de voz por prioridade de intenção, reduzindo etapas até a resolução.</dd></div>
-              <div><dt>Decisões de UX Writing</dt><dd>Padronização de tom, redução de jargão técnico e reforço de confirmação em etapas críticas da URA.</dd></div>
-              <div><dt>Métricas acompanhadas</dt><dd>Retenção, abandono, sucesso de NLP e TMN, monitorados de forma contínua após cada publicação.</dd></div>
-              <div><dt>Resultados</dt><dd>Documentação técnica organizada e jornadas de voz com evolução contínua orientada por dados.</dd></div>
-            </dl>
-          </div>
-        </details>
-
-        <!-- CASE 2 -->
-        <details class="case-card">
-          <summary>
-            <span class="case-tag">IA Generativa · NLP</span>
-            <h3>RecargaPay — IA Conversacional e Automação</h3>
-            <p class="case-preview">Construção de chatbot com IA Generativa e automação de processos críticos, incluindo fluxo de fraude.</p>
-            <span class="case-toggle" aria-hidden="true">Ver case completo</span>
-          </summary>
-          <div class="case-body">
-            <dl class="case-fields">
-              <div><dt>Contexto</dt><dd>Central de Ajuda em crescimento, com necessidade de escalar atendimento sem perder qualidade percebida.</dd></div>
-              <div><dt>Problema</dt><dd>Volume crescente de solicitações pressionava o time humano, especialmente em fluxos sensíveis como contestação de fraude.</dd></div>
-              <div><dt>Diagnóstico</dt><dd>Identificação de intenções de alto volume e alto risco como candidatas prioritárias à automação.</dd></div>
-              <div><dt>Solução</dt><dd>Construção de chatbot com IA Generativa, com modelagem de intenções e entidades e integração entre canais.</dd></div>
-              <div><dt>Arquitetura conversacional</dt><dd>Fluxos automatizados com camadas de confirmação antes de ações irreversíveis, como bloqueio de cartão.</dd></div>
-              <div><dt>Decisões de UX Writing</dt><dd>Linguagem direta em momentos de risco, priorizando clareza sobre criatividade — a confiança do usuário vem primeiro.</dd></div>
-              <div><dt>Métricas acompanhadas</dt><dd>Retenção geral, representatividade do chatbot no atendimento e retenção específica do fluxo de fraude.</dd></div>
-              <div><dt>Resultados</dt><dd>+15pp de retenção na Central de Ajuda, 24% de representatividade do chatbot, 97% de retenção no fluxo de fraude e 45% de satisfação do usuário.</dd></div>
-            </dl>
-          </div>
-        </details>
-
-        <!-- CASE 3 — placeholder para projeto demonstrativo -->
-        <details class="case-card case-card--demo">
-          <summary>
-            <span class="case-tag case-tag--demo">Projeto demonstrativo</span>
-            <h3>Voicebot — Projeto Demonstrativo</h3>
-            <p class="case-preview">Roteiro de voz autoral, construído para demonstrar raciocínio de arquitetura conversacional aplicado à URA.</p>
-            <span class="case-toggle" aria-hidden="true">Ver case completo</span>
-          </summary>
-          <div class="case-body">
-            <dl class="case-fields">
-              <div><dt>Contexto</dt><dd>[Adicione o contexto do projeto demonstrativo.]</dd></div>
-              <div><dt>Problema</dt><dd>[Descreva o problema simulado ou hipótese de partida.]</dd></div>
-              <div><dt>Diagnóstico</dt><dd>[Descreva os dados ou premissas usados no diagnóstico.]</dd></div>
-              <div><dt>Solução</dt><dd>[Descreva a solução de voz proposta.]</dd></div>
-              <div><dt>Arquitetura conversacional</dt><dd>[Descreva o desenho do fluxo de voz.]</dd></div>
-              <div><dt>Decisões de UX Writing</dt><dd>[Descreva as escolhas de roteiro e tom de voz.]</dd></div>
-              <div><dt>Métricas acompanhadas</dt><dd>[Descreva as métricas simuladas ou estimadas.]</dd></div>
-              <div><dt>Resultados</dt><dd>[Descreva o resultado esperado ou aprendizado do projeto.]</dd></div>
-            </dl>
-            <p class="case-note">Este case está em construção. O protótipo de voz poderá ser testado na seção <a href="#demos">Demos interativas</a>.</p>
-          </div>
-        </details>
-
-        <!-- CASE 4 — placeholder para projeto demonstrativo -->
-        <details class="case-card case-card--demo">
-          <summary>
-            <span class="case-tag case-tag--demo">Projeto demonstrativo</span>
-            <h3>Chatbot NLP — Projeto Demonstrativo</h3>
-            <p class="case-preview">Modelagem autoral de intenções e entidades para um chatbot de atendimento, construída como estudo de caso.</p>
-            <span class="case-toggle" aria-hidden="true">Ver case completo</span>
-          </summary>
-          <div class="case-body">
-            <dl class="case-fields">
-              <div><dt>Contexto</dt><dd>[Adicione o contexto do projeto demonstrativo.]</dd></div>
-              <div><dt>Problema</dt><dd>[Descreva o problema simulado ou hipótese de partida.]</dd></div>
-              <div><dt>Diagnóstico</dt><dd>[Descreva os dados ou premissas usados no diagnóstico.]</dd></div>
-              <div><dt>Solução</dt><dd>[Descreva a solução conversacional proposta.]</dd></div>
-              <div><dt>Arquitetura conversacional</dt><dd>[Descreva o desenho de intenções e fluxos.]</dd></div>
-              <div><dt>Decisões de UX Writing</dt><dd>[Descreva as escolhas de escrita e tom.]</dd></div>
-              <div><dt>Métricas acompanhadas</dt><dd>[Descreva as métricas simuladas ou estimadas.]</dd></div>
-              <div><dt>Resultados</dt><dd>[Descreva o resultado esperado ou aprendizado do projeto.]</dd></div>
-            </dl>
-            <p class="case-note">Este case está em construção. O protótipo poderá ser testado na seção <a href="#demos">Demos interativas</a>.</p>
-          </div>
-        </details>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 8. DEMOS INTERATIVAS ==================== -->
-  <section class="section section-dark" id="demos" aria-labelledby="demos-title">
-    <div class="wrap">
-      <p class="eyebrow eyebrow--light">Demos interativas</p>
-      <h2 id="demos-title">Teste os fluxos você mesmo</h2>
-      <p class="section-lede section-lede--light">As demonstrações abaixo estão preparadas para receber protótipos funcionais. Assim que publicadas, os fluxos poderão ser testados diretamente por quem avalia este portfólio — sem sair da página.</p>
-
-      <div class="demos-grid">
-
-        <article class="demo-card">
-          <div class="demo-card-header">
-            <h3>Chatbot interativo</h3>
-            <span class="demo-status">Em breve</span>
-          </div>
-          <p>Fluxo de atendimento construído em Botpress, demonstrando arquitetura conversacional, NLP e UX Writing aplicados a um cenário real de suporte.</p>
-          <div class="demo-embed" id="chatbotEmbed" role="img" aria-label="Espaço reservado para incorporação do chatbot">
-            <!--
-              Local reservado para embed do Botpress (ou outra plataforma).
-              Exemplo de integração via script oficial do Botpress:
-
-              <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-              <script>
-                window.botpressWebChat.init({
-                  botId: "SEU_BOT_ID",
-                  hostUrl: "https://cdn.botpress.cloud/webchat/v2",
-                  messagingUrl: "https://messaging.botpress.cloud",
-                  clientId: "SEU_CLIENT_ID"
-                });
-              </script>
-
-              Alternativa: substituir este bloco por um <iframe> apontando
-              para o webchat publicado.
-            -->
-            <div class="demo-placeholder">
-              <span class="demo-placeholder-icon" aria-hidden="true">💬</span>
-              <p>Espaço reservado para o chatbot em Botpress.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="demo-card">
-          <div class="demo-card-header">
-            <h3>URA / Voicebot</h3>
-            <span class="demo-status">Em breve</span>
-          </div>
-          <p>Protótipo de voz construído em Voiceflow, demonstrando roteiro de URA, tratamento de intenção e recuperação de erro.</p>
-          <div class="demo-embed" id="voicebotEmbed" role="img" aria-label="Espaço reservado para incorporação do voicebot">
-            <!--
-              Local reservado para embed do protótipo do Voiceflow.
-              Exemplo de integração via iframe do Voiceflow Prototype:
-
-              <iframe
-                src="https://creator.voiceflow.com/prototype/SEU_PROJECT_ID"
-                title="Protótipo de voicebot"
-                width="100%" height="100%" frameborder="0" allow="microphone">
-              </iframe>
-            -->
-            <div class="demo-placeholder">
-              <span class="demo-placeholder-icon" aria-hidden="true">🎙️</span>
-              <p>Espaço reservado para o protótipo em Voiceflow.</p>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 9. STACK E COMPETÊNCIAS ==================== -->
-  <section class="section" id="stack" aria-labelledby="stack-title">
-    <div class="wrap">
-      <p class="eyebrow">Stack e competências</p>
-      <h2 id="stack-title">Ferramentas e conhecimento técnico</h2>
-
-      <div class="stack-grid">
-        <div class="stack-group">
-          <h3>Plataformas</h3>
-          <ul class="chip-list">
-            <li class="chip">Botpress</li>
-            <li class="chip">Botmaker</li>
-            <li class="chip">Zendesk Support</li>
-            <li class="chip">Zendesk Guide</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>Tecnologias</h3>
-          <ul class="chip-list">
-            <li class="chip">HTML</li>
-            <li class="chip">JavaScript</li>
-            <li class="chip">JSON</li>
-            <li class="chip">APIs</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>IA</h3>
-          <ul class="chip-list">
-            <li class="chip">IA Generativa</li>
-            <li class="chip">NLP</li>
-            <li class="chip">Intenções</li>
-            <li class="chip">Entidades</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>Metodologias</h3>
-          <ul class="chip-list">
-            <li class="chip">Scrum</li>
-            <li class="chip">Métricas Ágeis</li>
-            <li class="chip">Six Sigma Green Belt</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 10. FORMAÇÃO E CERTIFICAÇÕES ==================== -->
-  <section class="section section-tint" id="formacao" aria-labelledby="formacao-title">
-    <div class="wrap formacao-grid">
-      <div>
-        <p class="eyebrow">Formação</p>
-        <h2 id="formacao-title">Formação acadêmica</h2>
-        <ul class="plain-list">
-          <li>
-            <strong>Bacharelado em Jornalismo</strong>
-            <span class="muted">UNIP — em andamento</span>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <p class="eyebrow">Certificações</p>
-        <h2>Certificações</h2>
-        <ul class="plain-list">
-          <li><strong>Chatbots: Do Zero ao Cognitivo</strong><span class="muted">FIAP</span></li>
-          <li><strong>UX Writing para Chatbots</strong><span class="muted">Alura</span></li>
-          <li><strong>SEO</strong><span class="muted">Alura</span></li>
-          <li><strong>Scrum e Métricas Ágeis</strong><span class="muted">Alura</span></li>
-          <li><strong>Green Belt Six Sigma</strong><span class="muted">EDTI</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 11. CONTATO ==================== -->
-  <section class="section section-contact" id="contato" aria-labelledby="contato-title">
-    <div class="wrap contact-inner">
-      <p class="eyebrow eyebrow--light">Contato</p>
-      <h2 id="contato-title">Vamos conversar sobre o próximo fluxo?</h2>
-      <p class="section-lede section-lede--light">Aberta a novas oportunidades em design conversacional, UX Writing e IA aplicada ao atendimento digital.</p>
-
-      <div class="contact-actions">
-        <!-- Substitua os links abaixo pelos seus perfis e e-mail reais -->
-        <a class="btn btn-light" href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a class="btn btn-light" href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a class="btn btn-light" href="mailto:contato@seudominio.com">E-mail</a>
-        <a class="btn btn-outline-light" href="assets/cv/curriculo.pdf" download>Baixar currículo</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<!-- ==================== RODAPÉ ==================== -->
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <p>&copy; <span id="year"></span> Nome Sobrenome. Design Conversacional &amp; UX Writing.</p>
-    <a href="#topo">Voltar ao topo ↑</a>
-  </div>
 </footer>
 
-<script src="js/main.js"></script>
 </body>
+
 </html>
